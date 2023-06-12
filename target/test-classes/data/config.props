@@ -1,0 +1,3 @@
+hostPort_Users = https://reqres.in
+api_createUsers = /api/users
+api_getUsers = /api/users/

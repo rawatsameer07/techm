@@ -1,0 +1,45 @@
+1. Java Development Kit (JDK): Install the latest version of JDK on your machine. 
+	You can download it from the Oracle website or choose an OpenJDK distribution.
+
+2. Integrated Development Environment (IDE): Choose an IDE for Java development, 
+	such as IntelliJ IDEA, Eclipse, or NetBeans. Install the IDE of your choice and 
+	set it up.
+
+3. Project Initialization: Import this Java project in your IDE. This step may vary
+ 	depending on your IDE, but you should be able to find an option to import a new 
+ 	Java Maven project.
+
+4. Build Automation Tool: Consider using a build automation tool like Apache Maven 
+	or Gradle to manage your project dependencies and build process. This step is 
+	optional but highly recommended. You can choose either Maven or Gradle, 
+	based on your preference.
+5. Download and install Git: If you want to push the changes in repo.
+
+
+# run the tests
+AppTestRunner.java: Created a test runner class in 'src/test/java' package, that 
+will execute your Cucumber tests. In Cucumber, the test runner class is typically 
+annotated with @RunWith(Cucumber.class) and specifies the location of your feature
+files and step definitions which you want to execute.
+
+#Report
+Once tests are executed by running the AppTestRunner.java file you will be able 
+to see the execution status in console or to view cucumber report navigate to 
+'TechMSDETSameer\target\cucumber-reports' path and click on report html file.
+
+
+************ '003 Data load and transformation' ******************************
+# to run the '003 Data load and transformation'
+Here's a step-by-step guide to creating the directory:
+Open a terminal or SSH into your Linux machine.
+Navigate to the root directory by executing the following command: cd /
+Create the app directory using the mkdir command: mkdir app
+Change to the app directory: cd app
+Create the in directory inside the app directory: mkdir in
+Verify that the /app/in directory has been created successfully: ls /app/in
+Same way create app/out directory and place the files.
+To Run :
+Open a terminal or command prompt and navigate to the directory where you saved 
+the Java file.
+Compile the Java file using the javac command: javac FileProcessor.java
+Run the Java program using the java command: java FileProcessor.java
